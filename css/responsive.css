@@ -1,0 +1,425 @@
+
+
+
+
+
+
+
+/*#################################### responsive css start###################################*/
+
+
+   /* nav bar */
+
+   @media (max-width:768px) {
+
+    header {
+      width: 100%;
+      height: auto;
+    }
+
+    header .logo {
+      margin-left: 30px;
+    }
+
+    header .nav {
+      float: none;
+    }
+
+    .nav-btn {
+      display: block;
+    }
+
+    header .nav ul {
+      position: fixed;
+      top: 54px;
+      left: 200%;
+      width: 100%;
+      height: 100vh;
+      background: #fff;
+      transition: all 1s ease;
+    }
+
+    header .nav ul li {
+      margin-top: 15px;
+      clear: both;
+      line-height: 30px;
+
+    }
+
+    #r-btn:checked ~ ul {
+      left: 0;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+    header .nav ul li a{
+      font-size: 20px;
+      text-align: center;
+    }
+
+
+/* banner area  */
+
+
+
+
+    .banner-area {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        display: block;
+    }
+
+    .banner-area .banner-text{
+        width: 100%;
+        margin:0 auto;
+        margin-top: 100px;
+        margin-left: 10%;
+        padding: 0;
+        
+    }
+
+
+    .banner-area .banner-text h6{
+        font-size: 10px;
+    }
+
+    .banner-area .banner-text h1{
+        font-size: 37px;
+        margin: 12px 0;
+    }
+
+    .banner-area .banner-text p{
+        font-size: 13px;
+        padding-right: 12%;
+    }
+
+    .banner-area .banner-text a{
+        font-size: 12px;
+        padding: 0px 20px;
+    }
+
+    .banner-area .banner-img{
+        width: 65%;
+        padding: 0;
+        margin: 0 auto;
+        margin-top: 3%;
+    }
+
+
+    /* about area start */
+
+    .about-area{
+        width: 100%;
+        display: block;
+    }
+
+    .about-area .about-img{
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-area .about-img img{
+        width: 100%;
+    }
+
+    .about-text{
+      margin-left: 10%;
+      width: 100%;
+    }
+
+    .about-text h6{
+      margin-bottom: 10px;
+      font-size: 10px;
+    }
+
+    .about-text h1{
+      font-size: 33px;
+      margin-bottom: 20px;
+    }
+
+    .about-text p{
+      padding-right: 16%;
+      text-align: justify;
+      font-size: 13px;
+    
+    }
+
+
+
+    /* service area start */
+
+
+    .service-area{
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+  
+    }
+
+    .service-area .service-text{
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .service-text h1{
+      font-size: 28px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+
+    .service-area p{
+      width: 82%;
+    }
+
+    .service-area .service-1 div,
+    .service-area .service-2 div {
+      width: 100%;
+    }
+
+    .service-area .service-1 .service-icon,
+    .service-area .service-2 .service-icon {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+
+    .service-area .service-1 h4,
+    .service-area .service-2 h4 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+
+
+
+
+
+/* pricing table start */
+
+
+.pricing-table {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.pricing-table .pricing-text h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 0 10%;
+}
+
+.pricing-table .pricing-text p{
+  padding: 0px 11%;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.pricing-table .pricing-card{
+  width: 100%;
+  display:  flex;
+  flex-direction: column;
+}
+
+.pricing-table .pricing-card .card{
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.pricing-table .pricing-card .card h2{
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.pricing-card .card h6{
+  font-size: 13px;
+}
+
+.pricing-card .card h3{
+  font-size: 30px;
+}
+
+.pricing-card .card input{
+  box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.34);
+}
+
+
+}
+
+
+
+
+
+
+  @media (max-width:768px) {
+
+
+/* footer area start */
+
+footer{
+  width: 100%;
+  padding: 46px 0 !important;
+}
+
+.footer-area{
+ flex-direction: column !important;
+ overflow: hidden !important;
+
+}
+
+footer .footer-area .footer-1{
+  padding: 0 !important;
+  margin-bottom: 30px !important;
+}
+
+footer .footer-area .footer-1:last-of-type{
+  margin-bottom: 0 !important;
+}
+
+footer .footer-area .footer-1 p{
+  width: auto !important;
+}
+
+footer .footer-area .footer-1 h4{
+  margin-bottom: 15px !important;
+}
+
+footer .footer-area .footer-1 input {
+  padding: 10px 14px 10px 10px !important;
+}
+
+footer .footer-area .footer-1 input::placeholder{
+  font-size: 14px !important;
+}
+
+  }
+
+
+
+
+  @media (max-width:768px) {
+
+  /* section-4 start */
+
+.section-4{
+  width: 100%;
+  padding: 15% 0;
+  height: auto;
+  overflow: hidden;
+}
+
+.section-4 div{
+  width: 100%;
+  position: static;
+  margin-bottom: 60px;
+
+}
+
+.section-4 div h1{
+  font-size: 40px;
+}
+
+.section-4 div p{
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+
+  }
+
+
+
+
+
+
+  @media (max-width:768px) {
+
+
+/* section-5 start  */
+
+.section-5{
+  width: 100%;
+}
+
+.section5-text{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section5-text h1{
+  font-size: 24px !important;
+  text-transform: uppercase;
+  color: #000 !important;
+}
+
+.section5-img{
+  width: 80% !important;
+}
+
+.section5-img div{
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+/* .section5-img{
+  width: 75% !important;
+  flex-direction: column !important;
+
+}
+
+.section-5 .section5-img div{
+  height: auto !important;
+  width: 80% !important;
+  clear: both;
+
+
+}
+
+.section-5 .section5-img div img{
+  width: 100% !important;
+}
+
+
+.section-5 .section5-img figure{
+  width: 80% !important;
+  height: auto !important;
+} */
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /*#################################### responsive css end###################################*/
