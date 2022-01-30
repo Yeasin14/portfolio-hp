@@ -38,6 +38,7 @@
      position: fixed;
      background: #fff;
      z-index: 1000;
+     position: relative;
 
    }
 
@@ -76,9 +77,9 @@
      display: none;
      color: rgba(0, 0, 0, 0.9);
      font-size: 30px;
-     float: right;
-     margin-right: -168px;
-     line-height: 80px;
+     position: absolute;
+     right: 10%;
+     top: 22%;
    }
 
    #r-btn {
@@ -455,7 +456,7 @@
    .pricing-card .card {
      text-align: center;
      width: 350px;
-     height: 500px;
+     height: 494px;
      background-color: #f9f9ff;
      border: rgba(0, 0, 0, 0.1);
    }
